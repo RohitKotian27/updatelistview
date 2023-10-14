@@ -4,8 +4,8 @@ export const Popup = ({ handleDelete, id, setShowPopUp }) => {
         setShowPopUp(false);
     }
     return (
-        <div id="staticModal" data-modal-backdrop="static" tabIndex="-1" className="fixed top-0 left-0 right-0 z-50 w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
-            <div className="fixed w-full max-w-2xl h-full top-1/4 left-1/4 align-items-center">
+        <div id="staticModal" data-modal-backdrop="static" tabIndex="-1" className="fixed top-0 left-0 right-0 z-50 w-full overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+            <div className="fixed w-full max-w-2xl h-full inset-y-1/3 lg:inset-x-1/4">
                 <div className="bg-white rounded-lg shadow-sm border">
                     <div className="flex items-start justify-between p-4 rounded-t">
                         <h3 className="text-xl font-semibold text-gray-900">
